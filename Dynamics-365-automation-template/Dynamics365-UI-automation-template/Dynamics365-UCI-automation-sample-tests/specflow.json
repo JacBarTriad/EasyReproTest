@@ -1,0 +1,9 @@
+{
+  "language": {
+    "feature": "en-US"
+  },
+  "plugins": [],
+  "stepAssemblies": [
+    { "assembly": "Dynamics365-UCI-automation-template" }
+  ]
+}

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamics365-UCI-automation-template", "Dynamics365-UCI-automation-template\Dynamics365-UCI-automation-template.csproj", "{E3DA40DF-79BA-45B9-89AD-6B25649DF2C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamics365-UCI-automation-sample-tests", "Dynamics365-UCI-automation-sample-tests\Dynamics365-UCI-automation-sample-tests.csproj", "{0D769F9F-8D70-4398-B574-DF32351B0F64}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E3DA40DF-79BA-45B9-89AD-6B25649DF2C4} = {E3DA40DF-79BA-45B9-89AD-6B25649DF2C4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3DA40DF-79BA-45B9-89AD-6B25649DF2C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3DA40DF-79BA-45B9-89AD-6B25649DF2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3DA40DF-79BA-45B9-89AD-6B25649DF2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3DA40DF-79BA-45B9-89AD-6B25649DF2C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D769F9F-8D70-4398-B574-DF32351B0F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D769F9F-8D70-4398-B574-DF32351B0F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D769F9F-8D70-4398-B574-DF32351B0F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D769F9F-8D70-4398-B574-DF32351B0F64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEF7B385-3C3C-41AB-9E66-8918F77E55C1}
+	EndGlobalSection
+EndGlobal
